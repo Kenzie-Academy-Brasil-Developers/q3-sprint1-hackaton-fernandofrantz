@@ -11,8 +11,8 @@ def get_score(team_name, teams):
         elif place == team_name:
             position = position
             break
-
     print(f'A {team_name} ficou classificada em {position}º lugar')
+    return f'A {team_name} ficou classificada em {position}º lugar'
 
 print(' => Team Kenzie deve finalizar em 1º lugar:')
 get_score('Team Kenzie', hackathon_1)
@@ -21,7 +21,7 @@ print('')
 
 
 print(' => Team Kenzie deve finalizar em 2º lugar:')
-get_score('Team Kenzie', hackathon_3)
+get_score('Team Kenzie', hackathon_2)
 print('- - ' *15)
 print('')
 
